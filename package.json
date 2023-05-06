@@ -44,6 +44,7 @@
     "build:component": "rollup -c build/rollup.config.js",
     "prepare": "yarn build:component || npm run build:component"
   },
+  
   "devDependencies": {
     "@capacitor/android": "^5.0.1",
     "@capacitor/core": "^5.0.1",
